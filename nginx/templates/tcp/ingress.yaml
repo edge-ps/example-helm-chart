@@ -1,0 +1,8 @@
+apiVersion: getambassador.io/v3alpha1
+kind: TCPMapping
+metadata:
+  name: nginx-tcp
+  namespace: emissary
+spec:
+  port: 8000
+  service: nginx.nginx-tcp:8000

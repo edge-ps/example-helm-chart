@@ -1,0 +1,11 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: nginx-https
+  namespace: emissary
+spec:
+  ambassador_id:
+  - --apiVersion-v3alpha1-only--default
+  prefix: /
+  service: nginx.nginx-https
+  host: nginx.store.ncr.corp
