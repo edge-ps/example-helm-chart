@@ -1,0 +1,6 @@
+apiVersion: v2
+version: 0.1.0
+appVersion: 0.1.0
+name: nginx
+description: Example helm chart exposing exteral nginx service with required emissary/linkerd resources
+kubeVersion: ">=1.19.0-0"
